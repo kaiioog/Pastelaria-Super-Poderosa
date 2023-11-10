@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    }
+body{
+    margin: 0;} 
+.logo{
+    flex: 20%;
+    text-align: center;
+    }
+.logo h1{
+    font-family: Arial, Helvetica, sans-serif;color: white;
+    font-size: 30px;
+    }
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 80px;
+    box-shadow: 8px 1px 10px 20px rgba(255, 251, 0, 0.267);
+    }
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;}
+.menu a:hover{
+    color: pink;
+    border-top: 4px solid yellow;}
+section{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 90%; }
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0; }
+section h3{
+    margin: 0;
+    font-size: 20px; }
+.card{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 1%;
+    border: 1px red;
+    box-shadow: 1px 2px 84px 20px rgba(255, 251, 0, 0.527) ; }
+.preco{
+    font-size: 20px;
+    color: red; }
+.botaosobre{
+    background: green;
+    padding: 10px;
+    color: red;
+    text-decoration: none; }
+.botaosobre:hover{
+    background: black; }
